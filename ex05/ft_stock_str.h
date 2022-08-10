@@ -10,8 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifdef F_STOCK_STR_H
-# define F_STOCK_STR_H
+#ifndef FT_STOCK_STR_H
+# define FT_STOCK_STR_H
 
 typedef struct s_stock_str
 {

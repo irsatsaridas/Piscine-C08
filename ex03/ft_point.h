@@ -9,11 +9,10 @@
 /*   Updated: 2022/08/10 18:49:24 by isaridas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#ifndef FT_POINT_H
+# define FT_POINT_H
 
-#ifndef F_POINT_H
-# define F_POINT_H
-
-typedef struct x_point
+typedef struct s_point
 {
 	int	x;
 	int	y;

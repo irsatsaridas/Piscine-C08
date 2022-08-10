@@ -28,7 +28,7 @@ void	ft_putstr(char *str)
 		write(1, &str[i], 1);
 	}
 }
-	
+
 void	ft_putnbr(int nb)
 {
 	long	n;
@@ -47,9 +47,10 @@ void	ft_putnbr(int nb)
 	else
 		ft_putchar(n + 48);
 }
+
 void	ft_show_tab(struct s_stock_str *par)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (par[i].str != 0)
