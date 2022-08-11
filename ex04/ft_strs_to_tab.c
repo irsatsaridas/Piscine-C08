@@ -46,7 +46,7 @@ struct s_stock_str	*ft_strs_to_tab(int ac, char **av)
 	t_stock_str	*ptr;
 
 	ptr = malloc(size(t_stock_str * (ac + 1)));
-	if (!ptr)
+	if (ptr == NULL)
 		return (NULL);
 	ptr[ac--].str = 0;
 	while (ac >= 0)
